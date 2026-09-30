@@ -2,9 +2,8 @@
 - related files: src/Unstoppable.sol,test/Unstoppable.t.sol
 ---
 ### 1. Bug = manage to make the flash loan stop
----
 
-### 2. where? = UnstoppableVault.sol:96
+### 2. where? = UnstoppableVault.sol:78-97
 
 ### 3. leaks reason?
 - @ src/UnstoppableVault.sol ada 1 function flash loan(ini core idea dari contract ini)
