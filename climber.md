@@ -87,10 +87,10 @@ contract ClimberAttacker {
 
     // dipanggil oleh timelock (dari dalam execute). argumennya PERSIS sama -> id cocok -> lolos cek.
     function scheduleSelf() external {
-        timelock.schedule(targets, values, dataElements, salt);
+        timelock.schedule(targets, values, dataElem ents, salt);
     }
 }
 
 ```
 
-
+| 
