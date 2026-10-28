@@ -10,7 +10,7 @@
 ### 2. Where
 src/shards/ShardsNFTMarketplace.sol
 - fill()   → baris 139: harga beli pakai mulDivDown(..., offer.totalShards)
-- cancel() → baris 166: refund pakai mulDivUp(..., 1e6)
+- cancel() → baris 166: refund pakai mulDivUp(...,z  1e6)
 
 ### 3. leaks reason?
 - buyer bayar pas fill() dan di terima balik pas cancel() di hitung dengan rumus yang skalanya beda,pdhl dua duaanya "nilai dari shards sama"
